@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/local/bin/asus-keyboard-backlight > /dev/null
+X-GNOME-Autostart-enabled=true
+Name=Asus Keyboard Backlight Idle
+OnlyShowIn=GNOME;
