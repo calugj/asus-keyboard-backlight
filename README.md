@@ -21,8 +21,9 @@ Alternatively, manually
 2) `sudo cp asus-keyboard-backlight /usr/local/bin/`
 3) `sudo chown root:root /usr/local/bin/asus-keyboard-backlight`
 4) `sudo chmod u+s /usr/local/bin/asus-keyboard-backlight`
-5) `cp src/asus-keyboard-backlight.desktop ~/.config/autostart/` 
-6) Close session (logout) and login
+5) `mkdir ~/.config/autostart`
+6) `cp src/asus-keyboard-backlight.desktop ~/.config/autostart/` 
+7) Close session (logout) and login
 
 # Uninstall
 With make
@@ -48,4 +49,4 @@ Options:
 # Notes
 Step 3 of the manual installation sets the ownership of the executable to `root`, and step 4 sets the setuid bit. This ensures that this program is always run with the appropriate permissions. The brightness file, in fact, is writable only by `root`.
 
-Step 5 requires the Gnome desktop environment to be loaded. This program does not work on TTY.
+Step 6 requires the Gnome desktop environment to be loaded. This program does not work on TTY.
