@@ -11,7 +11,7 @@ install:
 	sudo cp $(OUT) /usr/local/bin/
 	sudo chown root:root /usr/local/bin/$(OUT)
 	sudo chmod u+s /usr/local/bin/$(OUT)
-	mkdir $(HOME)/.config/autostart
+	mkdir -p $(HOME)/.config/autostart
 	cp src/asus-keyboard-backlight.desktop $(HOME)/.config/autostart/
 
 uninstall:

@@ -21,7 +21,7 @@ Alternatively, manually
 2) `sudo cp asus-keyboard-backlight /usr/local/bin/`
 3) `sudo chown root:root /usr/local/bin/asus-keyboard-backlight`
 4) `sudo chmod u+s /usr/local/bin/asus-keyboard-backlight`
-5) `mkdir ~/.config/autostart`
+5) `mkdir -p ~/.config/autostart`
 6) `cp src/asus-keyboard-backlight.desktop ~/.config/autostart/` 
 7) Close session (logout) and login
 
